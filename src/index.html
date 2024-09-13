@@ -6,6 +6,98 @@
     <title>Trivia</title>
     <link rel="stylesheet" href="style.css">
   </head>
+    <link rel="stylesheet" href="index.html">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafío matemático 2024</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Desafío matemático</h1>
+        </header>
+    
+        <div class="container">
+            <!-- Pregunta 1 -->
+            <section id="p1">
+                <h3>1 - Si una caja de lápices cuesta $6 y necesitas comprar 4 ¿Cuánto dinero has gastado?</h3>  
+                <label class="resultado">
+                    <input type="radio" value="1" name="p1">$24
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="2" name="p1">$65
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="3" name="p1">$46
+                </label>      
+            </section>
+    
+            <!-- Pregunta 2 -->
+            <section id="p2">
+                <h3>2 - Si un atleta corre 7 kilómetros todos los días ¿Cuántos kilómetros habrá recorrido en 35 días?</h3>  
+                <label class="resultado">
+                    <input type="radio" value="1" name="p2">755 kilómetros
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="2" name="p2">245 kilómetros
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="3" name="p2">445 kilómetros
+                </label>   
+            </section>
+    
+            <!-- Pregunta 3 -->
+            <section id="p3">
+                <h3>3 - Si una persona come 7 naranjas cada 8 horas ¿Cuántas naranjas habrá comido en una semana?</h3>  
+                <label class="resultado">
+                    <input type="radio" value="1" name="p3">256 Naranjas
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="2" name="p3">147 Naranjas 
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="3" name="p3">465 Naranjas
+                </label>   
+            </section>
+    
+            <!-- Pregunta 4 -->
+            <section id="p4">
+                <h3>4 - Si una caja de chocolates contiene 25 unidades ¿Cuántos chocolates habrá en 17 cajas?</h3>  
+                <label class="resultado">
+                    <input type="radio" value="1" name="p4">750 chocolates
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="2" name="p4">575 Chocolates
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="3" name="p4">425 Chocolates
+                </label>   
+            </section>
+    
+            <!-- Pregunta 5 -->
+            <section id="p5">
+                <h3>5 - Si una persona toma 11 vasos de agua al día y cada vaso contiene 200 ml de agua ¿Cuántos litros habrá consumido la persona después de 10 días?</h3>   
+                <label class="resultado">
+                    <input type="radio" value="1" name="p5">22 Litros
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="2" name="p5">14 Litros
+                </label> 
+                <label class="resultado">
+                    <input type="radio" value="3" name="p5">34 Litros
+                </label>   
+            </section>
+    
+            <button onclick="corregir()">CORREGIR</button>
+            <h2>Cantidad de aciertos: <span id="resultado"></span></h2>
+          </div>
+    </body>
+    </html>
+    
+
   <body>
     <div id="root"></div>
     <script src="main.js"></script>

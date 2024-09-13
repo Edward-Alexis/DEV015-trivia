@@ -1,3 +1,16 @@
 /*
   Aquí van los estilos
 */
+
+section {
+  background-color : lightblue;
+  border:blue solid;
+  display: flex;
+    flex-direction:column;
+    
+    
+}
+.resultado{
+  border: solid 1px lightblue;
+    background-color: snow;
+}
