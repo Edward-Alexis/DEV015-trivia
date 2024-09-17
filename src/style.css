@@ -7,10 +7,19 @@ section {
   border:blue solid;
   display: flex;
     flex-direction:column;
-    
+  ;height: auto;
+  margin: auto;
+  justify-content: center;
     
 }
 .resultado{
   border: solid 1px lightblue;
     background-color: snow;
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
