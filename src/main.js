@@ -32,4 +32,13 @@ function corregir() {
 
     // Mostrar la cantidad de aciertos
     document.getElementById('resultado').textContent = aciertos;
+
+    // Definir la variable 'nombre' (puedes capturarla desde un input si es necesario)
+    let nombre = "Usuario"; // Cambia esto según cómo estés obteniendo el nombre del usuario
+
+    if (aciertos === 5) {
+        alert(`¡Felicitaciones ${nombre} por completar con éxito esta trivia!`);
+    } else {
+        alert(`${nombre}, has acertado ${aciertos} de 5 preguntas. ¡Inténtalo de nuevo!`);
+    }
 }
