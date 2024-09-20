@@ -1,28 +1,108 @@
-/*
-  Aquí van los estilos
-*/
+/*CSS de facil*/
 
-section {
-  background-color : lightblue;
-  border:blue solid;
-  display: flex;
-    flex-direction:column;
-  ;height: auto;
-  margin: auto;
-  justify-content: center;
-    
-}
-.resultado{
-  border: solid 1px lightblue;
-    background-color: snow;
-}
-
-h1{
+#h1-facil{
   text-align: center;
   margin: 0 auto;
   display: block;
   width: 100%;
 }
-button{
+
+ .pregunta-facil{
+  background-color : lightblue;
+  border:none;
+  display: flex;
+  flex-direction:column;
+  height: auto;
+  margin: auto;
+  justify-content:center;
+    
+}
+.resultado-facil{
+  border: solid 1px lightblue;
+    background-color: snow;
+}
+
+
+#button-facil{
+  background-color: green;
+color: white;
+padding: 15px 30px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+/*CSS de pesadilla*/
+*{
+  font-family: Arial, sans-serif;
+  background-color: snow;
+}
+
+.container-dificil {
+  background-color: #ffffff;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border:none;
+  border-radius: 10px;
+}
+
+.resultado-dificil {
+  border: solid 1px lightblue;
+  background-color: snow;
+  padding:10px;
+  border-radius: 1rem;
+  width: 60%;
+  margin: 0 0 10px 10px;
+}
+
+#h1-dificil {
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.pregunta-dificil {
+  background-color: lightblue;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.boton-corregir {
   background-color: #b3e600;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.boton-corregir:hover {
+  background-color: lightgreen;
+}
+
+.resultado-dificil {
+  border: none;
+  background-color: snow;
+  padding: 10px;
+  border-radius: 1rem;
+  width: 60%;
+  margin: 0 0 10px 10px;
+  display: block;
+  margin-bottom: 10px;
+
 }
