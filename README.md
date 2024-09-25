@@ -14,13 +14,6 @@
 
 ## 1. Preámbulo
 
-Una _trivia_ es un tipo de juego, generalmente en el marco de un concurso, en el
-que se plantea una serie de preguntas cuyas respuestas deben ser elegidas entre
-diferentes opciones predeterminadas.
-
-En la actualidad existen muchas posibilidades de participar de una _trivia
-online_. Con una rápida búsqueda en Internet, te podrás dar cuenta de que existen
-_trivias_ de diversas temáticas (ciencia, series, televisión, etc.).
 
 ![TRIVIA](https://phandroid.s3.amazonaws.com/wp-content/uploads/2018/01/hq-trivia-android-screenshot.jpg)
 
