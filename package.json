@@ -1,6 +1,18 @@
 {
+  "scripts": {
+    
+  
+    "predeploy": "echo 'No build step needed'",
+        "deploy": "gh-pages -d src"
+      
+     
+    },
+"homepage": "https://github.com/Edward-Alexis/DEV015-trivia",
+
+
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://Edward-Alexis.io/DEV015-trivia"
+  }
+ 
+  
 }
