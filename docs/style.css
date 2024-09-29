@@ -81,7 +81,7 @@ input[type="text"] {
     border-radius: 50px;
     position: absolute;  
     top: 20px;          
-    right: 20px;  
+    right: 60px;  
     display: flex;
     justify-content: center;
   } 
