@@ -139,7 +139,7 @@ input[type="text"] {
 
 .container-dificil {
   background-color: #ffffff;
-  width: 50%;
+  width: 85%;
   margin: auto ;
   padding: 10px;
   border: none;
@@ -159,7 +159,7 @@ input[type="text"] {
   border: none;
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 80%;
   margin: 10px;
   justify-content: center;
   padding: 10px;
