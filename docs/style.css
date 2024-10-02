@@ -115,6 +115,7 @@ input[type="text"] {
 .resultado-facil {
   border: solid 1px lightblue;
   background-color: snow;
+  padding: 5px;
 }
 
 #button-facil {
@@ -159,7 +160,7 @@ input[type="text"] {
   border: none;
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 35%;
   margin: 10px;
   justify-content: center;
   padding: 10px;
