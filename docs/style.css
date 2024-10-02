@@ -194,3 +194,44 @@ input[type="text"] {
 .boton-corregir:hover {
   background-color: green;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .pregunta-facil {
+    width: 90%; /* Cambiar el ancho para ajustarse a pantallas móviles */
+    margin: 10px auto; /* Centramos los elementos */
+  }
+
+  #button-facil {
+    width: 90%; /* Ajustar el ancho del botón para móviles */
+    padding: 15px; /* Aumentar un poco el padding para hacerlo más táctil */
+  }
+
+  #cuenta-atras {
+    width: 80px; /* Reducir el tamaño del cronómetro */
+    height: 40px;
+    top: 10px; /* Ajustar la posición del cronómetro */
+    right: 20px;
+  }
+
+  .container {
+    padding: 20px; /* Reducir el padding en pantallas móviles */
+  }
+
+  input[type="text"] {
+    width: 100%; /* Asegurar que los inputs ocupen todo el ancho disponible */
+  }
+
+  #buttonWelcome {
+    width: 100%; /* El botón de bienvenida ocupa todo el ancho */
+  }
+
+  .escoger-button {
+    width: 90%; /* Asegurar que los botones en escoger se ajusten */
+    padding: 12px; /* Ajustar el padding */
+  }
+
+  .pregunta-dificil {
+    width: 90%; /* Ajustar el tamaño de las preguntas difíciles */
+  }
+}
